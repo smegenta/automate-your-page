@@ -1,0 +1,67 @@
+/* This is a CSS comment.*/
+
+body {
+	padding: 20px 10px;
+	font-family: Helvetica;
+	max-width: 2000px;
+	margin: 0 auto; 
+	font-size: 1.4em;
+}           
+
+
+
+.lesson {
+	background-color: blue;
+	border-radius: 20px;
+	color: white;
+	padding: 10px;
+	margin: 10px auto;
+}
+
+
+h1 {
+	text-align: center;
+	color: #294860;
+}
+
+h2 {
+	margin: 10px;
+}
+
+
+.sub-lesson {
+	background-color: #DFEAF1;
+	padding: 4px;
+	margin: 10px;
+	border-radius: 4px;
+	color: black;
+}
+
+.sub-lesson-title {
+	font-size: 28px;
+	margin: 8px;
+	text-align: center;
+	color: #294860;
+}
+
+.sub-lesson-desc {
+	font-weight: lighter;
+	margin: 6px;
+}
+
+ul {
+	list-style-type: none; 
+}
+
+span.code {
+    font-family: Courier;
+    background-color: #BBBBBB;
+    padding: 2px 4px;
+    font-weight: bold;
+}
+
+span.tab{
+    padding: 10px 80px; 
+}
+
+

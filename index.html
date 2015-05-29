@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+	  <meta charset="UTF-8">
+	  <link rel="stylesheet" type="text/css" href="stage1.css">
+	  <title>Sam Megenta's Note - Stage 1</title>
+	</head>
+
+	<body>
+		
+		<div>
+	    	<h1>Introduction to Programming Nanodegree</h1>
+	  	</div>
+ 		
+	  	<div class = "lesson">
+	  		<h2>Table of contents</h2>
+	  		<div class ="sub-lesson">
+	  			<div class ="sub-lesson-desc">
+	  				<p> <a href= "#Make...">Intro: Make your web page</a></p>
+					<ul>
+						<li><a href = "#Lesson1.1">The Basics of the web</a></li>
+						<li><a href = "#Lesson1.2">Creating a structured Document with HTML</a></li>
+						<li><a href = "#Lesson1.3">Adding CSS Style to HTML structure</a></li>
+					</ul>
+					<p> <a href = "#Automate...">Automate your page</a></p>
+					<ul>
+						<li><a href = "#Lesson2.0">Introduction to serious programming</a></li>
+						<li><a href = "#Lesson2.1">Variables and Strings</a></li>
+						<li><a href = "#Lesson2.2">Functions</a></li>
+						<li><a href = "#Lesson2.3">Decisions and Repetitions</a></li>
+						<li><a href = "#Lesson2.4">Structred data</a></li> 
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div>
+	    	<h1><a name = "Make...">Intro: Make your web page</a></h1>
+	  	</div>
+
+	  	<div class ="lesson">
+	  		<h2><a name = "Lesson1.1">The Basics of the Web:</a></h2>
+			<div class = "sub-lesson">
+		  		<div class = "sub-lesson-title">
+		  			Components of the web
+		  		</div>
+		  		<div class ="sub-lesson-desc">
+		  			<p> The web is comprised of the following pieces:</p>
+		  			<ul>
+		  				<li><b>Web Browser</b> - A disply program on a computer to display content.
+		  				<li><b>Servers</b> - Computers that host files.
+		  				<li><b>Http</b> - Communication protocol. 
+		  				<li><b>Internet</b> - A network of computers.
+		  			</ul>
+				</div>
+			</div>
+			<div class = "sub-lesson">
+			    	<div class = "sub-lesson-title">
+			      		HTML
+			      	</div>
+			      	<div class ="sub-lesson-desc">
+			      		<p>HTML is the heart of the web and is composed of the following parts:</p>
+			      		<ul>
+			      			<li><b>Text</b> - This is basically what gets displayed. <br>
+			      			<li><b>Markup</b> - This controls the style of the text that is diaplyed. <br>
+			      		</ul>
+			      		<p> An HTML may also contain references to other kinds of documents such as images and video. It may also contain links to other pages.</p>      
+			    	</div>
+			</div>
+			<div class = "sub-lesson">
+		    	<div class = "sub-lesson-title">
+		      		Markup
+		      	</div>
+		      	<div class ="sub-lesson-desc">
+		      		<p> A Markup element is made of an opening tag, a content and closing tags. Opening tags may have values. Some markups do not have contants and are said to be void markups. Void tags do not need closing tag. </p>
+
+		      		<p>Some example of tags:</p>
+		      		<ul>
+		      			<li><b><span class="code">&#60;a&#62;</span></b> - anchor for making links <br>
+		      			<li><b><span class="code">&#60;img&#62;</span></b> - for images and has src and alt attributes<br>
+		      			<li><b><span class="code">&#60;br&#62;</span></b> - page break<br>
+		      			<li><b><span class="code">&#60;p&#62;</span></b> - make paragraphs
+		      		</ul>
+
+		      		<p>The difference between the line break and paragraph tag is that the first one is an inline tag while the latter is a block tag. </p>
+		    	</div>
+		    </div>
+		    <div class = "sub-lesson">
+		    	<div class = "sub-lesson-title">
+		      		HTML Documents
+		      	</div>
+		      	<div class ="sub-lesson-desc">
+		      		<p> An HTML document has two parts: A head and body.</p>
+		      		<ul>
+		      			<li>The Head contains meta data about the document including the title of the document.
+		      			<li>The Body is basically where the content of the document is written.
+		      		</ul>
+		    	</div>
+	  		</div>
+		</div>
+		<div class ="lesson"> 
+	  		<h2><a name = "Lesson1.2">Creating a structured Document with HTML</a></h2>
+	  		<div class="sub-lesson">
+	  			<div class = "sub-lesson-title">
+	  				Conceptual description of a website
+	  			</div>
+	  			<div class="sub-lesson-desc">
+	  				<p>A website has a structure, a style and interactive components</p>
+		      		<ul>
+		      			<li>The structure is done using HTML language<br>
+		      			<li>The style is done using CSS language<br>
+		      			<li>The interactive part is done using Java script.
+		      			<li>Both HTML and CSS have their own Sytax and rules.
+		      			<li>The tree structure of HTML follows the DOM.
+		      		</ul>
+	    		</div>
+	    	</div>
+	    	<div class="sub-lesson">
+	    		<div class = "sub-lesson-title">
+	    			Boxing design
+	    		</div>
+	    		<div class="sub-lesson-desc">
+		      		<p> All elements of a website are in boxes. The first thing you need to do when you start converting a graphic design into a webpage is to decide the boxes that will need to be created. Afterwards you populate the boxes with content.</p>
+		      		
+		      		<p>Boxes are created with the div tag. To help add style to the boxes, include a class attribute to each box. The names should be indicative of the purpose of the box to avoid confusion lateron.</p>
+	    		</div>
+	    	</div>
+	    </div>
+	    <div class="lesson">
+	    	<h2><a name = "Lesson1.3">Adding CSS Style to HTML structure</a></h2>
+	    	<div class="sub-lesson">
+	  			<div class = "sub-lesson-title">
+	  				What is CSS?
+	  			</div>
+	  			<div class="sub-lesson-desc">
+	  				<p>CSS stands for <b>C</b>ascading <b>S</b>tyle <b>S</b>heets. It is used to control the style of the HTML elements using selectors which can either be defined inside the HTML or in a separate file.</p>
+
+	  				<p>The basic advantage of CSS is that it helps us to avoid repition, which helps to make the code good and concise.</p>
+	    		</div>
+	    	</div>
+	    	<div class="sub-lesson">
+	    		<div class = "sub-lesson-title">
+	    			Code-Refine-Test
+	    		</div>
+	    		<div class="sub-lesson-desc">
+		      		<p>Whenever you write code, first start with the big picture and drill down to the details. Always look for repeated styles to avaoid repition.</p>
+
+		      		<p>After witing the code, test in different browsers, resize browser to see the effect of on your coode and fix problems you see. Repeat the steps as necessary until all issues are fixed.</p>
+
+
+	    		</div>
+	    	</div>
+	    </div>
+	   
+	  	<div class ="lesson">
+	  		<h2><a name = "Lesson2.0">Introduction to serious programming</h2></a>
+			<div class = "sub-lesson">
+		  		<div class = "sub-lesson-title">
+		  			Introduction
+		  		</div>
+		  		<div class ="sub-lesson-desc">
+		  			<p> The objective of this section is to learn the Python programming language to generate the html page for the webpage we are building. In doing so, we will lean how to make a computer do what it is best at, which is doing repititive tasks very quickly.</p>
+
+		  			<p><b>A Computer </b> - A computer is a universal machine that can be programmed to do any computation.</p>
+
+		  			<p><b>A Program </b> - A program is a sequence of steps that tells the computer what to do. There are many different languages for programming computer. One of these languages is called Python </p>
+
+		  			<p><b>Python </b> - Python is a high level programming language. Python is called interpretor becuase it interprests the program we write to a language the computer understands and executes it. </p>
+
+		  			<p> A computer program need to be unambigious so that the computer executes exactly the same thing the programmer wants it to do. Unlike human languages, which tends to be verbose, a computer program has to describe its instruction consisely. Like human languages, computer programming languages also have grammars, but unlike human languages, they have to be followed precisely.</p>
+				</div> 
+			</div><div class ="lesson">
+	  		<h2><a name = "Lesson2.1">Variables and Strings</h2></a>
+			<div class = "sub-lesson">
+		  		<div class = "sub-lesson-title">
+		  			Variables
+		  		</div>
+		  		<div class ="sub-lesson-desc">
+		  			<p> Variables:</p>
+		  			<ul>
+		  				<li> - Have a name and hold a value.
+		  				<li> - Use an assignment statement to assign a value. 
+		  				<li> - Once defined can change their value.
+		  				<li> - In Python '=' is an assignment statement, not an equal sign.
+		  			</ul>
+				</div>
+			</div>
+			<div class = "sub-lesson">
+		  		<div class = "sub-lesson-title">
+		  			Strings
+		  		</div>
+		  		<div class ="sub-lesson-desc">
+		  			<p>Strings are a sequence of characters surrounded by quotes.</p>
+		  			<p>Strings:</p>
+		  			<ul>
+		  				<li> - Both single and double quotes can be used, as long as opening and closing quotes are the same.
+		  				<li> - Strings can be assigned to variables. 
+		  				<li> - '+' operator for stings is a concatenation operator. It concatenates two strings into a new string.
+		  				<li> - In Python '=' is an assignment statement, not an equal sign.
+		  			</ul>
+		  			<p>We can not use the '+' operators with strings and numbers , but "*" can be used and it means repeating the string as many times as specified in the operation. </p>
+
+		  			<p>Individual characters within a string can be accessed by the index [] operator. Index starts from 0. We can also have negative index numbers. When used, they mean to start at the end of the string and go to the left. </p>
+
+		  			<p>The operator <span class="code"> string[exp1:exp2] </span> is used to select a substring of a string starting at index exp1 and ending at index (exp2-1)</p>
+
+		  			<p>The find method <span class="code"> string.find(sub_string) </span> can be used to find the first occurnace of the substring in a string. By adding one more paramter <span class="code"> string.find(sub_string, position) </span>, the find method can be used to find the occurance of the sub string after the specified position of the string. This is useful when we are interested in finding multiple occurences. </p>
+				</div>
+			</div>
+		<div class ="lesson">
+	  		<h2><a name = "Lesson2.2">Functions</h2></a>
+			<div class = "sub-lesson">
+		  		<div class = "sub-lesson-title">
+		  			What are functions
+		  		</div>
+		  		<div class ="sub-lesson-desc">
+		  			<p> A function is a piece of code that takes one or more inputs and produced an output. Functions are used to avoid writing repititive codes for taks that are done over and over. By defining a function once, we can re-use it multiple times. </p>
+		  		</div>
+			</div>
+			<div class = "sub-lesson">
+		  		<div class = "sub-lesson-title">
+		  			Defining and using functions
+		  		</div>
+		  		<div class ="sub-lesson-desc">
+		  			<p> Functions are defined as:</p>
+		  			<ul><span class="code">
+		  				<li> <em> def  procedure_name (input1, input2, ...) </em>
+		  				<ul>
+		  					<li><em> do something </em>
+		  					<li><em> return (output) </em>
+		  				</ul>
+		  			</span></ul>
+		  			<p> The inputs are called operands or arguments. A funtion needs to have a return statement to be useful becuase that is how it returns its output. </p>
+		  			<p> Once a function is defined, simply use the name of the function with its arguments.</p>
+		  			</ul>
+				</div>
+			</div>
+		<div class ="lesson">
+	  		<h2><a name = "Lesson2.3">Decisions and Repetitions</h2></a>
+			<div class = "sub-lesson">
+		  		<div class = "sub-lesson-title">
+		  			Equality Comparisons
+		  		</div>
+		  		<div class ="sub-lesson-desc">
+		  			<p> There are a number of built in functions that are used to compare numbers. These include less than (<), greater than (>), less than or equal to (<=), greater than or equal to (=>), not equal (!=), and equal(==). All of them follow the syntax
+		  		<span class="code"> <em>Expression operator Expression</em></span>. Their output is a Boolean True or False.</p>
+
+		  			<p>Note that the equality comparison == is different from the assignment operator =.</p>
+		  		</div>
+			</div>
+			<div class = "sub-lesson">
+		  		<div class = "sub-lesson-title">
+		  			If Statements
+		  		</div>
+		  		<div class ="sub-lesson-desc">
+		  			<p> The If statement is used to make a decision based on comparison. The syntax of an If statement is </p> <p> <span class="code"> If <em>(IfTestExp):</em> <br>
+		  		        <span class="tab">block</span></span>		  
+
+		  			<p> The <span class="code">IfTestExp</span> part is evaluated first and if true <span class="code">block</span> is executed.</p>
+				</div>
+			</div>	
+			<div class = "sub-lesson">
+		  		<div class = "sub-lesson-title">
+		  			OR operator
+		  		</div>
+		  		<div class ="sub-lesson-desc">
+		  			<p> The OR operator is a logical construct which evalues to True if either the left ot right operand evalues to True.</p>		  
+		  			<p> The OR operator evalues only what it needs to evaluate, which means if the left operand evalues to True, it does not evaluate the right operand.</p>
+		  		</div>
+			</div>	
+			<div class = "sub-lesson">
+		  		<div class = "sub-lesson-title">
+		  			While Loop
+		  		</div>
+		  		<div class ="sub-lesson-desc">
+		  			<p> Loop is a construct that does things over and over again based on a set criteria</p>		  
+		  			<p> The While loop has theollowing syntax: 
+		  				<p> <span class="code"> While <em>(WhileTestExp):</em> <br>
+		  		        <span class="tab"> Block </span></span>		
+		  		        
+		  			<p> <span class="code">Block</span> will be executed repeatedly as long as the <span class="code"> WhileTestExp</span> is true. Exceution will exit from the loop when the <span class="code">WhileTestExp</span> evaluates to false.</p>
+				</div>
+			</div>	
+			<div class = "sub-lesson">
+		  		<div class = "sub-lesson-title">
+		  			Break Statements
+		  		</div>
+		  		<div class ="sub-lesson-desc">
+		  			<p> A Break statement is used to break in the middle of a loop</p>		  
+		  			<p> Its syntax within the While loop is: 
+					<p> <span class="code"> If <em> (BreakTestExp):</em> <br>
+		  		        <span class="tab"> break </span></span>	
+		  		</div>
+			</div>	
+			<div class = "sub-lesson">
+		  		<div class = "sub-lesson-title">
+		  			Bugs
+		  		</div>
+		  		<div class ="sub-lesson-desc">
+		  			<p> Bugs are a normal part of programming. While bugs can make a program crash, those that don't crash are trickier to find and fix. Some tips to find bugs and fix are:</p>	
+		  			<ul>
+		  				<li>- Look at the Traceback error message.
+		  				<li>- Use commenting to help you identify the location.
+		  				<li>- Use print statements 
+		  				<li>- Keep old version to help you get back to previous versions.
+		  			</ul>
+		  			<p>Remember debugging - which is finding and fixing bugs - is a scientific process of examining code to discover things you did not expect in it. </p>
+		  		</div>
+			</div>	
+		<div class ="lesson">
+				<h2><a name = "Lesson2.4">Structred data</h2></a>
+			<div class = "sub-lesson">
+		  		<div class = "sub-lesson-title">
+		  			Lists
+		  		</div>
+		  		<div class ="sub-lesson-desc">
+		  			<p> A string is a sequence of characters while a string can be a sequence of anything. Lists can also have nested lsits.</p>
+
+		  			<p> Lists are defined by putting them in a square brackets. Elements are separated by commas. Elements of a list can be accessed by using <span class="code">list[index]</span> and this returns a string containaing the element.</p>
+
+		  			<p>An index range can also be used <span class="code">List[startindex:endIndex]</span>. This will give us a subset of the lsit which itself is a list</p>
+
+
+		  			<p>The two most important difference between strings and lsist are mutation and aliasing</p>
+		  		</div>
+			</div>
+			<div class = "sub-lesson">
+		  		<div class = "sub-lesson-title">
+		  			Mutation and alisaing
+		  		</div>
+		  		<div class ="sub-lesson-desc">
+		  			<p><b>Mutation</b> - Mutation means you can change the value of a list after it has been created. Strings do not support mutation but lists do.</p>		  
+
+		  			<p><b>Aliasing</b> - When you can refer to one object in two or more ways, it is called alisaing. Strings do not support aliasing but lists do.</p>	
+				</div>
+			</div>	
+			<div class = "sub-lesson">
+		  		<div class = "sub-lesson-title">
+		  			List operations
+		  		</div>
+		  		<div class ="sub-lesson-desc">
+		  			<p> <b>plus</b> - is similar to concatenation and creates a new lsist.</p>
+		  			<p> <b>len</b> - gives the number of elements in a list.</p>			  
+		  			<p> <b>plus</b> - is similar to concatenation and creates a new lsist.</p>	
+		  		</div>
+			</div>	
+			<div class = "sub-lesson">
+		  		<div class = "sub-lesson-title">
+		  			Loops on lists
+		  		</div>
+		  		<div class ="sub-lesson-desc">
+		  			<p> Syntax:  <span class="code">  for <em> name </em> in <em> list: block</em></span></p>	
+		  			<p> This iterates through the list members. </p>	  
+		  		</div>
+			</div>	
+			<div class = "sub-lesson">
+		  		<div class = "sub-lesson-title">
+		  			Index
+		  		</div>
+		  		<div class ="sub-lesson-desc">
+		  			<p> Syntax:  <span class="code"> <em>list.index(value)</span></em></p>	
+		  			<p> If the value exists, it gives the index of the value. If the value does not exist, it gives an error.</p>
+		  		</div>
+			</div>	
+			<div class = "sub-lesson">
+		  		<div class = "sub-lesson-title">
+		  			in / not in
+		  		</div>
+		  		<div class ="sub-lesson-desc">
+		  			<p>Syntax: <span class="code"> <em>(value) in list </em></span></p>	
+		  			<p>If value is found, it returns True. If not, it returns false.</p>
+		  			<p><em>not in</em> is opposite of <em>in</em></p>
+		  		</div>
+			</div>	
+		</div>
+	</body>
+</html>
